@@ -5,6 +5,7 @@ Funcionalidade: Receber desconto da qazando
 	quero receber o cupom de desconto
 	para comprar um curso com o valor reduzido
 	
+
 	Cenário: Visualizar o código de desconto
 		Dado que estou no site da qazando
 		Quando preencho meu e-mail 

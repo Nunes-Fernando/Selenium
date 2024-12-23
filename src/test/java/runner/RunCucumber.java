@@ -9,12 +9,13 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin = { "pretty",
-		"html:target/cucumber-reports" }, features = "src/test/resources/features", glue = { "steps" })
+@CucumberOptions(plugin = { "pretty","html:target/cucumber-reports" }, 
+				features = "src/test/resources/features", 
+				glue = { "steps" })
 public class RunCucumber {
 
 	public static ChromeDriver browser;
-	
+
 	@BeforeClass
 	public static void start() {
 		browser = new ChromeDriver();
